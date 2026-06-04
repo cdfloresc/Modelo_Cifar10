@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Capacitor Android - Gradle build artifacts
+android/app/build/
+android/.gradle/
+android/build/
+android/local.properties
+android/*.iml
+android/app/*.iml

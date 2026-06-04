@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ImageClassifier</string>
+    <string name="title_activity_main">ImageClassifier</string>
+    <string name="package_name">com.cifar10.imageclassifier</string>
+    <string name="custom_url_scheme">com.cifar10.imageclassifier</string>
+</resources>
