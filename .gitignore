@@ -43,3 +43,6 @@ Thumbs.db
 !backend/app/modelo_final_cifar10.keras
 checkpoint/
 logs/
+
+# Standalone backend repo (separate deployment)
+cifar10-backend/
