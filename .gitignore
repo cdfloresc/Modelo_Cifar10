@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+dist/
+build/
+
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+pyvenv.cfg
+.Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.pytest_cache/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs and OS
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+# Model checkpoints (except the official model directory)
+*.h5
+*.keras
+!modelo/modelo_final_cifar10.keras
+!backend/app/modelo_final_cifar10.keras
+checkpoint/
+logs/

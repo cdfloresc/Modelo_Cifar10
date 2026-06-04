@@ -1,0 +1,18 @@
+{
+  "name": "cifar10-image-recognition-monorepo",
+  "version": "1.0.0",
+  "description": "Monorepo for image recognition using FastAPI and React (Vite/TS/Tailwind).",
+  "private": true,
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev:backend": "uvicorn backend.app.main:app --reload --host 127.0.0.1 --port 8000",
+    "dev": "concurrently --kill-others \"npm run dev:frontend\" \"npm run dev:backend\"",
+    "build:frontend": "npm run build --prefix frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
